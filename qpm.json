@@ -1,0 +1,27 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "echo-config",
+    "id": "echo-config",
+    "version": "0.1.0",
+    "url": null,
+    "additionalData": {
+      "overrideSoName": "libecho-config.so",
+      "cmake": false
+    }
+  },
+  "dependencies": [
+    {
+      "id": "yodel",
+      "versionRange": "^0.0.2",
+      "additionalData": {}
+    },
+    {
+      "id": "fmt",
+      "versionRange": "^10.0.0",
+      "additionalData": {}
+    }
+  ],
+  "workspace": null
+}
